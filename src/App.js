@@ -1,6 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 import EthAndClock from './components/EthAndClock';
+import Footer from './components/Footer';
 import Header from './components/Header';
 import TextContent from './components/TextContent';
 
@@ -10,6 +11,7 @@ function App() {
       <Header/>
       <TextContent/>
       <EthAndClock/>
+      <Footer/>
     </Div>
   )
 }
