@@ -1,5 +1,4 @@
 {
-  "homepage":"http://mikhita.github.io/nft-card-react-js",
   "name": "test-with-beka",
   "version": "0.1.0",
   "private": true,
@@ -13,11 +12,6 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "predeploy" : "npm run build",
-    "deploy" : "gh-pages -d build",
     "eject": "react-scripts eject"
-  },
-  "devDependencies": {
-    "gh-pages": "^4.0.0"
   }
 }
